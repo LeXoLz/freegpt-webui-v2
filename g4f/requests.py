@@ -6,7 +6,7 @@ from functools import partialmethod
 from typing import AsyncGenerator
 from urllib.parse import urlparse
 from curl_cffi.requests import AsyncSession, Session, Response
-from .webdriver import WebDriver, WebDriverSession
+from webdriver import WebDriver, WebDriverSession
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
